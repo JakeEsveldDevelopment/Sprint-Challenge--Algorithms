@@ -8,7 +8,11 @@ a)O(n) - This will be linear time because it is adding the square of the input t
 b)O(log(n)) - This will be the mathematical equivalent of a binary search. The funciton is multiplying the baseline by 2 every time it iterates. This will make it scale very quickly for large numbers. This will also make the computation time n to the square root of 2 which is what log2(n) is.
 
 
+edit: O(nLog(n)
+
 c)O(nLog(n)) - This will loop as many times as the input has value, but this will also do some extra computation in passing the variables back up the stack. This is the baseline complexity for most recursive methods. Will loops n times and then return back up the stack to return in the original.
+
+edit: O(n)
 
 ## Exercise II
 
